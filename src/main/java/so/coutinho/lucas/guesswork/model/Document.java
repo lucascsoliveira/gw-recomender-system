@@ -19,7 +19,7 @@ public class Document {
 
     private static final String BLANK_SPACE = " ";
     private static final String EMPTY_STRING = "";
-    private static final String UNCATEGORIZED = "<NONE>";
+    private static final String UNCATEGORIZED = "none";
 
     private String name;
     private String text;
@@ -45,8 +45,8 @@ public class Document {
     // Document(String name, String text, String category)  <-- ArquivoTreino
     public Document(String name, String text, String category) {
         this(name, text);
-        //TERNARY OPERAT(----clausule----) ? [ true ] : [   false   ]
-        this.category = (category != null) ? category : UNCATEGORIZED;
+        //TERNARY OPERAT(----clausule----) ? [        true        ] : [   false   ]
+        this.category = (category != null) ? category.toLowerCase() : UNCATEGORIZED;
     }
 
     public String getName() {
