@@ -100,7 +100,7 @@ public class Document {
             String word = wordsInDocumentB.next();
 
             if (documentA.getHits(word) == 0) {
-                distance += documentB.getHits(word);
+                distance += (int) Math.pow(documentB.getHits(word), 2);
             }
         }
 
