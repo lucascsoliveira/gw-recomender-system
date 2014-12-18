@@ -94,4 +94,16 @@ public class KNearestNeighbor {
         return allNeighbors.subList(0, K).iterator();
     }
 
+    public List<Document> getDocumentsByCategory(String category) {
+        List<Document> documentsByCategory = new ArrayList<>();
+
+        for (Document document : globalIndex) {
+            if (document.getCategory().equals(category)) {
+                documentsByCategory.add(document);
+            }
+        }
+
+        return documentsByCategory;
+    }
+
 }
