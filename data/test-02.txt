@@ -1,0 +1,10 @@
+data/02/test/esp-10.txt esportes
+data/02/test/esp-11.txt esportes
+data/02/test/esp-12.txt esportes
+data/02/test/esp-13.txt esportes
+data/02/test/esp-14.txt esportes
+data/02/test/tec-10.txt tecnologia
+data/02/test/tec-11.txt tecnologia
+data/02/test/tec-12.txt tecnologia
+data/02/test/tec-13.txt tecnologia
+data/02/test/tec-14.txt tecnologia

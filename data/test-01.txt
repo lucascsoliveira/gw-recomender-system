@@ -1,0 +1,2 @@
+data/01/texto1.txt science
+data/01/texto3.txt sports
